@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet" >
+    
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, it's Me</h3>
+            <h1>Ryan fontenele</h1>
+            <h3>and I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam tenetur at exercitationem nihil </p>
+        
+          <div class="social-media">
+            <a href="https://www.facebook.com/ryan.fontenele.399/"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/fontenele.barber/"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.linkedin.com/in/ryan-fontenele/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/DevFontenele"><i class='bx bxl-github' ></i>
+          </div>
+
+        <a href="curriculo/curriculo.pdf" class="btn">Download CV</a>
+        </div>
+       
+
+       <div class="home-img">
+        <img src="images/image.jpeg" alt="">
+       </div>
+     
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/image.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum molestiae tenetur dicta, magni dignissimos, nostrum neque sit consequuntur ducimus explicabo </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatum rerum repellendus doloremque numquam vitae assumenda cum voluptates</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+
+            <!-- <div class="services-box">
+                <i class='bx bx-paint' ></i>
+                <h3>Graphic Design</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatum rerum repellendus doloremque numquam vitae assumenda cum voluptates</p>
+                <a href="#" class="btn">Read More</a>
+            </div> -->
+
+            <!-- <div class="services-box">
+                <i class='bx bx-line-chart' ></i>
+                <h3>Digital marketing</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatum rerum repellendus doloremque numquam vitae assumenda cum voluptates</p>
+                <a href="#" class="btn">Read More</a>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Landing Page</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, at. Tempore, necessitatibus minima dignissimos molestias odio obcaecati dolor unde aspernatur placeat, iure architec.</p>
+                     <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+                
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>C.R.U.D</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, at. Tempore, necessitatibus minima dignissimos molestias odio obcaecati dolor unde aspernatur placeat, iure architect.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+
+                </div>
+                
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" autocomplete="off" required>
+                <Input type="email" name="email" placeholder="Email Adress" autocomplete="off" required></Input>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <Input type="text" placeholder="Email Subject"></Input>
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="send Message" class="btn">
+
+            <input type="hidden" name="accessKey" value="fca0ced9-bede-4b53-9129-2826e3201bd0">
+            <input type="hidden" name="redirectTo" value="https://rfa19.vercel.app/">
+         </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Ryan Fontenele | All Rights reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-arrow-from-bottom'></i></a>
+        </div>
+
+     </footer>
+
+
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
